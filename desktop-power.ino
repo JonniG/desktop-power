@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-// Wifi network details and MQTT broker IP
-const char* ssid = "Stewies Place 2.4Ghz";
-const char* password = "fishnchipsisnasty";
-const char* mqtt_server = "192.0.0.166";
+// Wifi + Server Configuration
+const char* ssid = "*****";
+const char* password = "*****";
+const char* mqtt_server = "*****";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
